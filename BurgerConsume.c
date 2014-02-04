@@ -16,9 +16,12 @@ addup()
  * of the programmer*/
 divide()
 
+/*IMPORTANT For our second version we want 3 decimal points for our output.
+ * and we also want to have printed the daily burger average!*/
 int main(void)
 {
 	int iTotalBurgers = addup(3,7,12);
-	printf("The average of Burgers consumed by each team member was %.2f",divide(iTotalBurgers,3));
+	printf("The average of Burgers consumed by each team member was %.3f\n",divide(iTotalBurgers,3));
+	printf("The daily average is %.3f\n",divide(iTotalBurgers,3)/7.0);
 	return 0;
 }
