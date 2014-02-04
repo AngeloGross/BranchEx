@@ -10,7 +10,11 @@
 /*This function shall add up the total Burgers of the three
  * programmer Team member consumed during the last week and
  * return this value.*/
-addup()
+int addup(int iConsumeOne,int iConsumeTwo,int iConsumeThree)
+{
+	int iTotalConsume = iConsumeOne + iConsumeTwo + iConsumeThree;
+	return iTotalConsume;
+}
 
 /*This function shall calculate the last week average consume
  * of the programmer*/
