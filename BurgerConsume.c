@@ -14,7 +14,11 @@ addup()
 
 /*This function shall calculate the last week average consume
  * of the programmer*/
-divide()
+float divide(int iTotalBurgers,int iAmountOfPersons)
+{
+	float fAverage = (float)iTotalBurgers/iAmountOfPersons;
+	return fAverage;
+}
 
 int main(void)
 {
