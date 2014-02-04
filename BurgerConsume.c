@@ -17,6 +17,7 @@ addup()
 float divide(int iTotalBurgers,int iAmountOfPersons)
 {
 	float fAverage = (float)iTotalBurgers/iAmountOfPersons;
+	//this must return a floating point.
 	return fAverage;
 }
 
